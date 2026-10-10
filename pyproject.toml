@@ -1,0 +1,13 @@
+[project]
+name = "imdbtop"
+version = "1.0.0"
+description = "Builds the IMDb Top 250 from the official IMDb datasets and exports it to Excel"
+requires-python = ">=3.10"
+authors = [{ name = "Talha Aker" }]
+license = { text = "MIT" }
+
+[tool.ruff]
+line-length = 160
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

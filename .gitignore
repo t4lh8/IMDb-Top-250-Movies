@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.idea/
+.DS_Store
+# Downloaded IMDb datasets and generated files (IMDb data is for personal use, not for redistribution)
+data/
+output/
+.pytest_cache/
+.ruff_cache/
+*.part

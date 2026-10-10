@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="314" viewBox="0 0 590 314" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
+<rect width="590" height="314" fill="#ffffff"/>
+<text x="12" y="24" font-size="15" font-weight="600" fill="#111827">Top 250 movies per decade</text>
+<text x="102" y="53" text-anchor="end" fill="#374151">1920s</text>
+<rect x="110" y="40" width="16" height="18" rx="3" fill="#2563eb"/>
+<text x="132" y="53" fill="#111827">2</text>
+<text x="102" y="77" text-anchor="end" fill="#374151">1930s</text>
+<rect x="110" y="64" width="40" height="18" rx="3" fill="#2563eb"/>
+<text x="156" y="77" fill="#111827">5</text>
+<text x="102" y="101" text-anchor="end" fill="#374151">1940s</text>
+<rect x="110" y="88" width="55" height="18" rx="3" fill="#2563eb"/>
+<text x="171" y="101" fill="#111827">7</text>
+<text x="102" y="125" text-anchor="end" fill="#374151">1950s</text>
+<rect x="110" y="112" width="111" height="18" rx="3" fill="#2563eb"/>
+<text x="227" y="125" fill="#111827">14</text>
+<text x="102" y="149" text-anchor="end" fill="#374151">1960s</text>
+<rect x="110" y="136" width="119" height="18" rx="3" fill="#2563eb"/>
+<text x="235" y="149" fill="#111827">15</text>
+<text x="102" y="173" text-anchor="end" fill="#374151">1970s</text>
+<rect x="110" y="160" width="127" height="18" rx="3" fill="#2563eb"/>
+<text x="243" y="173" fill="#111827">16</text>
+<text x="102" y="197" text-anchor="end" fill="#374151">1980s</text>
+<rect x="110" y="184" width="198" height="18" rx="3" fill="#2563eb"/>
+<text x="314" y="197" fill="#111827">25</text>
+<text x="102" y="221" text-anchor="end" fill="#374151">1990s</text>
+<rect x="110" y="208" width="301" height="18" rx="3" fill="#2563eb"/>
+<text x="417" y="221" fill="#111827">38</text>
+<text x="102" y="245" text-anchor="end" fill="#374151">2000s</text>
+<rect x="110" y="232" width="388" height="18" rx="3" fill="#2563eb"/>
+<text x="504" y="245" fill="#111827">49</text>
+<text x="102" y="269" text-anchor="end" fill="#374151">2010s</text>
+<rect x="110" y="256" width="420" height="18" rx="3" fill="#2563eb"/>
+<text x="536" y="269" fill="#111827">53</text>
+<text x="102" y="293" text-anchor="end" fill="#374151">2020s</text>
+<rect x="110" y="280" width="206" height="18" rx="3" fill="#2563eb"/>
+<text x="322" y="293" fill="#111827">26</text>
+</svg>
