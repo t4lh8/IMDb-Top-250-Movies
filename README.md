@@ -4,7 +4,7 @@
 
 A Python tool that collects IMDb movie data, finds the 250 highest rated movies and saves them in an Excel file you can filter and analyze.
 
-**Live page:** https://t4lh8.github.io/IMDb-Top-250-Movies/ (rebuilt every Monday with fresh data)
+**Live page:** https://t4lh8.github.io/IMDb-Top-250-Movies/
 
 ![Screenshot of the live page](docs/screenshot.png)
 
