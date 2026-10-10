@@ -4,7 +4,7 @@ import argparse
 import sys
 from pathlib import Path
 
-from . import analyze, svg
+from . import analyze, site, svg
 from .build import MIN_VOTES, build_top
 from .export import export
 from .fetch import NEEDED, fetch_all
@@ -19,6 +19,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--offline", action="store_true", help="use files already in --data-dir, do not download")
     p.add_argument("--force", action="store_true", help="download again even if the files are fresh")
     p.add_argument("--charts", type=Path, help="also write README SVG charts to this folder")
+    p.add_argument("--site", type=Path, help="also write a one page HTML report to this folder")
     args = p.parse_args(argv)
 
     if args.offline:
@@ -48,6 +49,9 @@ def main(argv: list[str] | None = None) -> int:
         svg.write(args.charts / "decades.svg", svg.bar_chart(decades, f"Top {len(movies)} movies per decade"))
         svg.write(args.charts / "genres.svg", svg.bar_chart(genres, "Ten most common genres"))
         print(f"Charts written to {args.charts}")
+
+    if args.site:
+        print(f"Web page written to {site.write(movies, args.site)}")
     return 0
 
 

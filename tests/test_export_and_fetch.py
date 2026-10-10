@@ -61,3 +61,13 @@ def test_cli_offline(dataset, tmp_path, capsys):
 
 def test_cli_offline_reports_missing_files(tmp_path):
     assert main(["--data-dir", str(tmp_path), "--offline"]) == 1
+
+
+def test_site_shows_top_10_only(dataset, tmp_path):
+    from imdbtop import site
+
+    movies = build_top(dataset, log=lambda *_: None)
+    html = site.write(movies * 3, tmp_path / "site").read_text(encoding="utf-8")
+    assert html.count("<tr><td class=\"num\">") == 10
+    assert "&quot;Quote&quot; Story" in html  # titles are HTML escaped
+    assert "Made by Talha Aker" in html
